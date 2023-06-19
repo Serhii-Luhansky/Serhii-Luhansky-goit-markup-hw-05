@@ -971,13 +971,15 @@ body {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
-
-
+  transition: background-color var(--transition), border var(--transition),
+    fill var(--transition);
 }
+
+
 
 .input-check:checked+.check-text span {
   background-color: #404BBF;

@@ -943,7 +943,7 @@ body {
 
 /* ****************** Checkbox************ */
 .modal-check-text {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .check-text {
@@ -965,7 +965,7 @@ body {
   margin-bottom: ;
 }
 
-.check-text span {
+.check-span {
   width: 16px;
   height: 16px;
   border-radius: 2px;

@@ -942,6 +942,9 @@ body {
 }
 
 /* ****************** Checkbox************ */
+.modal-check-text {
+  margin-bottom: 16px;
+}
 
 .check-text {
   font-size: 12px;
@@ -951,6 +954,7 @@ body {
   color: #8E8F99;
   display: flex;
   align-items: center;
+  margin-bottom: 24px;
 
 }
 
@@ -958,6 +962,7 @@ body {
   color: #4D5AE5;
   text-decoration: underline;
   margin-left: 4px;
+  margin-bottom: ;
 }
 
 .check-text span {

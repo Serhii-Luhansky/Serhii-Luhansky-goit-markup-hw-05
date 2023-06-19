@@ -581,6 +581,7 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 453px;
+  gap: 24px;
 
 }
 
@@ -599,7 +600,7 @@ body {
   letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   transition: border-color var(--transition);
-  margin-right: 24px;
+
 }
 
 .footer-btn {
@@ -608,7 +609,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+
   letter-spacing: 0.04em;
   color: #FFFFFF;
   background-color: #4D5AE5;
@@ -635,6 +636,11 @@ body {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+}
+
+.subscribe-btn-icon {
+  fill: #ffffff;
+  margin-left: 16px;
 }
 
 

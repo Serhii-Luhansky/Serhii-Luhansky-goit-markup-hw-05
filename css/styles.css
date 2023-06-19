@@ -865,8 +865,7 @@ body {
 }
 
 .modal-field {
-  margin-bottom: 8px;
-
+  margin-bottom: 16px;
 }
 
 .modal-input {
@@ -932,6 +931,10 @@ body {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   resize: none;
+}
+
+.modal-textarea:focus {
+  border-color: #4d5ae5;
 }
 
 /* ****************** Checkbox************ */
